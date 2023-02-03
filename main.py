@@ -50,18 +50,15 @@ endurecimento1 = False
 endurecimento2 = False
 
 #Imagens
-telaInicial = pygame.image.load(r'.\telainicialSteX.png')
-p1Win = pygame.image.load(r'.\P1Win.png')
-p2Win = pygame.image.load(r'.\P2Win.png')
+telaInicial = pygame.image.load('telainicialSteX.png')
+p1Win = pygame.image.load('P1Win.png')
+p2Win = pygame.image.load('P2Win.png')
 
 telaInShow = True
 P1Show = False
 P2Show = False
 
 #Sons
-pygame.mixer.music.load('audioTelaInicial.wav')
-pygame.mixer.music.play(-1)
-pygame.mixer.music.set_volume(99999)
 morte = pygame.mixer.Sound('Morte.wav')
 #Definindo variáveis para largura e altura
 width = 1366
